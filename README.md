@@ -57,7 +57,7 @@ namespace GymApp.Classes
 }
 ```
 
-Описание внутренней части страницы **"PageStep1"** (с изменением цвета кнопок после нажатия):
+Описание страницы PageStep1.Xaml.cs (Прин нажатии на кнопки, они меняют свой цвет!):
 ```
 using GymApp.Pages;
 
@@ -96,7 +96,7 @@ public partial class PageStep1 : ContentPage
 }
 ```
 
-Описание стилей элементов xaml в **"Styles.xaml"**:
+Описание стилей использованных в приложении для всех страниц
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xaml-comp compile="true" ?>
